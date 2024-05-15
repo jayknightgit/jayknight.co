@@ -19,7 +19,7 @@
    <!--1400px x 200px banner-->
        <div id="content">
    <div class="navbar2">
-     <img  src="bgshape.png" 
+     <img ID="shape" src="bgshape.png" 
     style="position:absolute;
     left: -2%;
     bottom: -50%;
@@ -980,6 +980,11 @@ left:36%;
 top:30%;
 }
 
+      @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+    #shape{ 
+     display:none;
+   }
+  }
 
 @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
 .mySlides {
