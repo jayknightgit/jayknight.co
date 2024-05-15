@@ -78,22 +78,12 @@
     </div>
   
 <div class="mySlides">
-        <a target="_blank" href="/art/p3.jpg"> <img class="imageslide" src="/art/p3.jpg"  style="  max-height: 570%;
-    position: absolute;
-    top: -150%;                                             
-    margin: 0 auto;
-    translate: -50% 50%;
-    border-radius: 25px 20px 25px 20px;"></a>
+        <a target="_blank" href="/art/p3.jpg"> <img ID="p3" class="imageslide" src="/art/p3.jpg" ></a>
         <div class="text"></div>
         </div>
         
 <div class="mySlides">
-            <a target="_blank" href="/art/p5.png"> <img class="imageslide" src="/art/p5.png"  style="max-height: 550%;
-    position: absolute;
-    top: -100%;
-    margin: 0 auto;
-    translate: -50% 50%;
-    border-radius: 25px 20px 25px 20px;"></a>
+            <a target="_blank" href="/art/p5.png"> <img class="imageslide" src="/art/p5.png"  ></a>
             <div class="text"></div>
             </div>
 
@@ -341,10 +331,29 @@ window.addEventListener("click", function(event) {
 
 
 <style>
-#p2 {
-    position: absolute;                                     
+#p5 {
+       max-height: 550%;
+    position: absolute;
+    top: 10px;                                             
     margin: 0 auto;
-    translate: -50% 50%;
+    translate: -50%;
+    border-radius: 25px 20px 25px 20px;
+}
+
+#p3 {
+       max-height: 570%;
+    position: absolute;
+    top: 10px;                                             
+    margin: 0 auto;
+    translate: -50%;
+    border-radius: 25px 20px 25px 20px;
+}
+  
+#p2 {
+       position: absolute;
+    top: 10px;
+    margin: 0 auto;
+    translate: -50%;
     border-radius: 25px 20px 25px 20px;
 }
 
@@ -1012,6 +1021,30 @@ left:36%;
 top:30%;
 }
 
+   @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #p5 {
+max-height: 550%;
+    position: absolute;
+    top: -100%;
+    margin: 0 auto;
+    translate: -50% 50%;
+    border-radius: 25px 20px 25px 20px;"
+  }
+   }
+
+   @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #p3 {
+       max-height: 570%;
+    position: absolute;
+    top: -150%;                                             
+    margin: 0 auto;
+    translate: -50% 50%;
+    border-radius: 25px 20px 25px 20px;
+}
+  }
+
+
+  
  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
 #p2 {
 max-height: 570%;
