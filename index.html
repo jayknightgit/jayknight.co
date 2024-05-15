@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jay knight</title>
+    <link rel="icon" href="tabicon.png">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+   <link rel="icon" href="buutton.png">
+  </head>
+  
+  <body>
+  <div id="page-container">
+  <div id="content-wrap">
+   <!--1400px x 200px banner-->
+       <div id="content">
+   <div class="navbar2">
+   </div>
+
+    <div class="left">
+  <div id="loca">
+ <div id="text-containterm">
+ <h1 id="locah1" style="font-size: 20px; position:absolute; left:5%; top:-10%"> Location </h1>
+ <p id="locap">ATL, NYC</p>
+  </div>
+
+    </div>
+    
+      <div id="bio">
+ <div id="text-containter">
+ <h1 id="bioh1" style="font-size: 20px; position:absolute; left:5%; top:-5%">About Me: </h1>
+ <p id="biop">My name's Jay. I'm<br> a
+ designer, illustrator, <br>  and animator native <br> to Atlanta, GA. </p>
+  </div>
+  
+
+    </div>
+    
+   
+
+  <div id="rss">
+ <div id="text-containter">
+  <h1 id="rssh1" style="font-size: 20px; position:absolute; left:5%; top:-7%">Education </h1>
+ <p id="rssp">Georgia State - <br> Studio Art 2024  </p>
+ 
+  </div>
+
+    </div>
+
+
+
+
+</div>
+
+<div class="middle">
+<div class="slideshow-container">
+
+
+ 
+ 
+
+<div class="mySlides">
+ <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+ <div class="text"></div>
+ </div>
+ 
+
+ 
+<div class="mySlides">
+    <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+    <div class="text"></div>
+    </div>
+  
+<div class="mySlides">
+        <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+        <div class="text"></div>
+        </div>
+        
+<div class="mySlides">
+            <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+            <div class="text"></div>
+            </div>
+  
+  
+<div class="mySlides">
+                <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+                <div class="text"></div>
+                </div>
+ 
+  
+<div class="mySlides">
+                    <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+                    <div class="text"></div>
+                    </div>
+ 
+<div class="mySlides">
+    <a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+       <div class="text"></div>
+          </div>
+  
+ 
+
+<div class="mySlides">
+<a target="_blank" href="/art/"> <img class="imageslide" src="/art/"  style="   max-height:250px;   border-radius: 25px 20px 25px 20px; "></a>
+  <div class="text"></div>
+    </div>
+ 
+ 
+
+
+
+ 
+  
+
+ 
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+<div style="text-align:position:absolute; display:none; ">
+  <span class="dot" onclick="currentSlide()"></span>
+ 
+
+ 
+
+
+
+  
+</div>
+</div>
+
+  <button class="prev" id="button-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="next" id="button-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+ 
+
+
+
+</div>
+<div class="right">
+ <div id="mixes">
+ <h1 id="mixesh1" style="font-size: 20px; position:absolute; left:4%; top:-4%">Experience </h1><br>
+ <p > For the last four years I have been doing freelance graphic design and illustration;
+    and a wide range of work. This includes album art, posters, as well as websites. 
+    During this time I have also done freelance animation.
+     I've worked on trailers, as well as music videos. </p> 
+</div>        
+
+ <div id="ex2">
+   <h1 id="ex2h1"> Contact </h1>
+ 
+
+   <p ID="ex2p"> Wanna work together? Reach me at: <br><br> Email: jayknight0210@gmail.com
+    <br>
+    Phone: (678)-817-8738 
+   
+
+   </p>
+   
+   
+</div>       
+
+</div>
+
+
+    <div class="bottom1">
+ 
+  <div id="skill">
+ <div id="text-containter">
+ 
+<h1 id="rssh1" > + Skills</h1>
+
+ 
+ <ul ID="wrlist" >
+    
+
+    <li>Adobe Creative Suite</li>
+    <li>Web Design</li>
+    <li>HTML 5 </li>
+    <li> Team Production </li>
+    <li> Solo Production</li>   
+    
+   
+    
+      
+      
+      
+      
+
+      
+      
+        
+    </ul>
+ 
+   </div>
+   </div>
+</div>
+</div>
+
+   <div class="bottom2">
+      <div id="cl">
+    <h1 id="clh1">Previous Clients</h1>
+  <ul ID="wrlist" >
+
+    <li>Sony Music </li>
+    <li> Muse Communications </li>
+        
+    <li> MTV </li>
+    <li> DeadAir Records</li>
+    <li> Esoteric Thing </li>
+    
+      
+      
+      
+      
+
+      
+      
+        
+    </ul>
+ 
+</div>
+
+    </div>
+
+    
+        
+
+
+ 
+
+
+
+  
+  <div class="footer"><p></p></div>
+</div>
+</div></div>
+    <script>
+  /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+document.getElementById("drop").addEventListener("click", function(e) {
+  document.getElementById("myDropdown").classList.toggle("show");
+});
+
+
+// Close the dropdown if the user clicks outside of it
+window.addEventListener("click", function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    document.querySelectorAll(".dropdown-content.show")
+      .forEach(openDropdown => openDropdown.classList.remove('show'))
+  }
+});
+
+
+
+
+</script>
+
+
+
+<style>
+#skilldesc a {
+  color: hotpink;
+}
+
+#wrlist a {
+  color: hotpink;
+}
+
+#button-display-left{
+    position: absolute;
+    width: 30%;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    cursor: url(cursor70.png), auto;
+}
+#button-display-right{
+  position:absolute;
+  top: 80%;
+  width: 30%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  cursor: url(cursor70.png), auto;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin: auto;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 22px;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.prev {
+  cursor: url(cursor68.png), auto; 
+  width: auto;
+  padding: 16px;
+  color: white;
+  background-color: #6A728D;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0s ease;
+    border-radius: 25px 25px 25px 90px;
+    user-select: none;
+}
+
+
+ .next {
+  cursor: url(cursor68.png), auto; 
+  width: auto;
+  padding: 16px;
+  color: white;
+  background-color: #6A728D;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0s ease;
+    border-radius: 25px 25px 90px 25px;
+    user-select: none;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides {
+ display: none; 
+ padding:20px;
+ padding-top:25px;
+
+  }
+  
+  .imageslide {
+
+
+  }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0s ease;
+  
+}
+
+.active, .dot:hover {
+  background-color: white;
+}
+
+
+#cusdis_thread{
+    display:inline-block;
+    width: 80%;
+    height:10%;
+    }
+
+
+
+
+.left{  
+  height:66vh; 
+ font-size: 4.5vh;
+ padding:1%;
+  z-index:98;
+  position: absolute;
+  display:inline-block;
+  left:vw;
+  width:19%;
+  background-color: #DEE2EE;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+
+  padding:10px;
+
+  top:12vh;
+  border-radius: 20px 20px;
+} 
+
+.middle{  
+height: 90vh;
+    font-size: 4.5vh;
+    padding: 1%;
+    z-index: 98;
+    position: absolute;
+    display: inline-block;
+    right: 27.3vw;
+    width: 49%;
+    background-color: #DEE2EE;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    top: 15vh;
+    border-radius: 20px 20px;
+} 
+
+.right{  
+   height:66vh; 
+ font-size: 4.5vh;
+ padding:1%;
+  z-index:98;
+  position: absolute;
+  display:inline-block;
+  left:71vw;
+  width:25.5%;
+  background-color: #C6D1E1;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+
+  padding:10px;
+  
+  top:12vh;
+  border-radius: 20px 20px;
+} 
+
+.bottom1{  
+   height:37vh; 
+ font-size: 4.5vh;
+  z-index:98;
+  position: absolute;
+  display:inline-block;
+  top:83vh;
+  left:0vw;
+  width:20%;
+  background-color: #C6D1E1;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 20px 20px;
+} 
+
+.bottom2{  
+   height:37vh; 
+ font-size: 4.5vh;
+  z-index:98;
+  position: absolute;
+  display:inline-block;
+  top:83vh;
+  right:0vw;
+  width:27%;
+  background-color: #C6D1E1;
+  color: white;
+  text-align: center;
+  vertical-align:middle;
+
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 20px 20px;
+} 
+
+
+.navbar2{  
+    height: 11.9%;
+
+    z-index: 99;
+    position: absolute;
+    display:block;
+    top: 0px;
+    right: 0;
+    left:0;
+   
+    background-color: #E9ECF7;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+     background-image: url('/asset/.png');
+       background-position:center; 
+     background-size:contain;
+     background-repeat:no-repeat;
+} 
+
+
+
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 100px;    /* Footer height */
+}
+
+
+#button{
+position:relative;
+  top:10vh;
+}
+
+
+.footer{  
+display: inline-block;
+    z-index: 50;
+    position: relative;
+    padding-bottom: 10px;
+     padding-top: 10px;
+    left: 0;
+    top: 116vh;
+    right: 0;
+    width: 100%;
+    background-color: #E9ECF7;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+    
+    .someicon {
+  display: none;
+}
+.link:hover + .someicon {
+  display: inline-block;
+  position:absolute;
+  left:2%;
+  
+}
+
+/* includes announcements and recent work */
+  #content { 
+    height: 100vh;
+    top: 0;
+    width: 100%;
+    display:block;
+    position: absolute;
+    background-image: url(bgrepeat.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: repeat;
+    
+ }
+ 
+  #loca {  
+   z-index: 99;
+    height: 16%;
+    width:90%;
+    display: inline-block;
+    position: relative;
+    color: #6A728D;
+    background-color: white;
+    border: 2px solid #6A728D;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+     background-image: url('bad.gif');
+      background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ 
+  #bio {  
+    top:2%;
+   z-index: 99;
+    height: 38%;
+    width:90%;
+    display: inline-block;
+    position: relative;
+    color: #6A728D;
+    background-color: white;
+    border: 2px solid #6A728D;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+  
+ }
+ 
+
+ 
+  #rss {  
+    top:4%;
+   z-index: 99;
+    height: 26%;
+    width:90%;
+    display: inline-block;
+    position: relative;
+    color: #6A728D;
+    background-color: white;
+    border: 2px solid #6A728D;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+ }
+ 
+ #mixes {  
+   z-index: 99;
+    height: 51%;
+    width:90%;
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: #6A728D;
+    border: 2px solid #6A728D;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+    background-image: url(/asset/girl.png);
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: right;
+ }
+ 
+  #ex2 {  
+   z-index: 99;
+    height: 31%;
+    width:90%;
+    top:2%;
+    display: inline-block;
+    position: relative;
+    color: white;
+   background-color: #5c6e81;
+    border: 2px solid #6A728D;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+ }
+
+
+ #text-container{
+   padding:3%;
+   width:100%; 
+  }
+
+ #skilldesc {  
+   
+   z-index: 99;
+    width: 16vw;
+    left:1%;
+   height: 15vh;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: #3D4A57;
+    border: 2px solid #D5D6E7;
+    text-align: center;
+
+    font-size: 12px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+          background-image: url(/asset/DUDE.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: left;
+ }
+
+ #skill {  
+    z-index: 99;
+    width: vw;
+    height: 90%;
+    width: 85%;
+    display: inline-block;
+    color: white;
+    background-color: #5c6e81;
+    border: 2px solid #D5D6E7;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 3%;
+    vertical-align: middle;
+    background-image: url(/asset/.png);
+    background-size: 98%;
+    background-repeat: repeat;
+    background-position: center;
+ }
+
+
+#cl {  
+    z-index: 99;
+    width: 79%;
+    left: 9%;
+     height: 90%;
+    display: inline-block;
+    /* position: absolute; */
+    color: white;
+    background-color: #5c6e81;
+    border: 2px solid #D5D6E7;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 20px 20px;
+    padding: 2%;
+    vertical-align: middle;
+    overflow: auto;
+}
+ 
+ 
+ #wrlist{
+   bottom:27px;
+    list-style-position: inside;
+   position:relative;
+  font-family:"helvetica";
+    display:inline;
+    list-style:none;
+    line-height:1.8;
+    text-align:center;
+    margin: 0 auto;
+  
+  left:0px;
+    }
+  
+
+ul {
+   display: table;
+   margin: 0 auto;
+}
+
+
+  marquee{
+   font-size: 30px;
+   font-weight: 100;
+ }
+
+ 
+ .dropbtn {
+   width:100%;
+   height:10%;
+   border: 2px solid black;
+   background-color: white;
+   color: black;
+   padding: 10px 20px;
+   font-size: 2.5vh;
+   border-radius: 2px;
+   cursor: url(cursor70.png), auto;
+   transition-duration: 0s;
+   /*must change manually to match css stylesheet body font*/
+   font-family: "helvetica";
+ }
+
+  .dropbtn:hover {
+   background-color: black; 
+   color: white;
+ }
+
+  .cursor {
+   cursor: url(cursor68.png), auto;
+   height: 350px;
+   width: 25%;
+   left: 200px;
+   position: absolute;
+   z-index: 99;
+  }
+
+  .dropdown {
+   position: relative;
+   display: inline;
+   cursor: url(cursor68.png), auto; 
+ }
+
+  .dropdown-content {
+   display: none;
+   position: absolute;
+   left: 1%;
+   top: 10px;
+   background-color: #fff;
+   width: 90%;
+   z-index: 1;
+   margin-top: 20px;
+  }
+
+  .dropdown-content a {
+   color: black;
+   padding: 5px 5px;
+   text-decoration: none;
+   display: block;
+  }
+
+  /* edit dropdown */
+  hr.solid {
+   border-left: 1px solid #fff;
+   border-right: 1px solid #fff;
+   border-top: 1px solid #fff;
+   border-bottom:  1px solid #fff;
+  }
+
+  .show {
+   display: block;
+  }
+ 
+ 
+
+  .menu {
+   padding:5px;
+   padding-top:10px;  
+ } 
+ 
+ 
+  body {
+   background:#E9ECF7;
+   background-size:100%;
+   background-image: url('backgroundimagefilename.png');
+   background-repeat: repeat;
+ }
+
+ h1{
+   text-align:center;
+   font-family: "helvetica";
+  }
+ 
+ p{
+   font-family: "helvetica";
+  } 
+    #rssp{
+  position:absolute;
+  font-size: 14px; 
+  left:28%;
+  top:25%;
+  line-height: 1.8;
+    }
+    
+  #biop{ 
+  position:absolute; 
+  font-size: 14px;
+  left:21%;
+  top:16%; 
+  line-height: 1.8;
+}
+  
+  
+   #skilldescp{ 
+     position:absolute;
+     right:10px;
+     top:30px; 
+   }
+   
+    
+  #ex2h1{ 
+    font-size: 20px;
+    position: absolute;
+    left: 5%;
+    top: -5%;
+}
+ 
+
+ 
+   
+   #rsspp{
+    position:absolute; 
+    left:10%; 
+    top:25%  
+    line-height: 1.8;
+   }
+   
+ #ex2pp{ 
+position:absolute;
+left:22%;
+top:50% 
+ }
+ 
+ #ex2p{ 
+position:absolute;
+left:13%;
+top:15% ;
+line-height: 1.8;
+ }
+ 
+ 
+ #locap{ 
+  position:absolute; 
+font-size: 14px; 
+left:36%;
+top:30%;
+}
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+.mySlides {
+ display: none; 
+ padding:20px;
+ padding-top:20px;
+
+  }
+  }
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ #locap{ 
+  position:absolute; 
+font-size: 11px; 
+left:37%;
+top:30%;
+}
+}
+ 
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ .dot {
+  cursor: pointer;
+  height: 4px;
+  width: 4px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display:none;
+  transition: background-color 0s ease;
+  
+ }
+} 
+ 
+
+ 
+   @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ #wrlist{ 
+ 
+   left:-20%;
+  
+ }
+  }
+   
+     @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ #ex2pp{ 
+   left:25%;
+   top:65%;
+  }
+}
+   
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ #ex2h1{ 
+   font-size: 20px; 
+   position:absolute; 
+   left:7%;
+   top:-4%;
+ }
+  }
+
+   
+    @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+      #rsspp{
+    position:absolute; 
+    left:2%; 
+    top:25%;
+    font-size:11px;
+   }
+   }
+   
+    @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+    #skilldescp{ 
+     position:absolute;
+     right:0px;
+     top:30px; 
+     font-size:7px;
+   }
+  }
+  
+   @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+    #biop{ 
+  position:absolute; 
+  font-size: 11px;
+  left:24%;
+  top:25%; 
+  }
+  }
+  
+    @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #rssp{
+   position: absolute;
+    font-size: 11px;
+    left: 0%;
+    top: 47%;
+  }
+}
+  
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #button-display-left{
+    position: absolute;
+    width: 100px;
+    top: 100%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    cursor: url(cursor70.png), auto;
+  }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+#button-display-right{
+  position:absolute;
+  top: 100%;
+  width: 100px;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  cursor: url(cursor70.png), auto;
+ }
+}
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  .left {  
+      top: 62vh;
+  width: 45vw;
+    z-index: 99;
+    left: vw;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+      font-size: 5vw;
+
+ 
+  }
+ }
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  .middle {  
+  height: 40vh;
+    font-size: 4.5vh;
+  
+    z-index: 98;
+    position: absolute;
+    
+  left: 53%;
+  transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 95%;
+    background-color: #D5D6E7;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+
+    top: 35vh;
+    border-radius: 20px 20px;
+
+
+  }
+ }
+ 
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  .right {  
+   top: 62vh;
+  z-index: 99;
+    left: 54%;
+    width: 44vw;
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+    font-size: 5vw;
+  }
+ }
+ 
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  .bottom {  
+  top: 117vh;
+    z-index: 99;
+    margin: 0 auto;
+    height: 20vh;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+    font-size: 7px;
+    overflow: hidden;
+  }
+ }
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #loca {  
+  
+   display:inline-block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+   font-size: 7px;
+  }
+ }
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #bio {  
+  
+   display:inline-block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+   font-size: 7px;
+  }
+ }
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #rss {  
+   
+   display:inline-block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+   font-size: 7px;
+  }
+ }
+
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #mixes {  
+  
+   display:inline-block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+   font-size: 7px;
+  }
+ }
+
+
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #mixes2 {  
+   
+   display:inline-block;
+   position: relative;
+   color: white;
+   background-color: black;
+   border: 2px solid #e1e8e2;
+   text-align:center;
+   border-radius: 5%;
+   padding:3%;
+   vertical-align: middle;
+   font-size: 7px;
+  }
+ }
+ 
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #skilldesc {  
+  
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+    font-size: 7px;
+  }
+ }
+ 
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #skill {  
+      display: inline-block;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+    font-size: 7px;
+    background-size: 100%;
+  }
+ }
+ 
+  @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  #cl {  
+  left: 43.5%;
+    z-index: 99;
+    height: 15vh;
+    display: inline-block;
+    position: relative;
+    color: white;
+    background-color: black;
+    border: 2px solid #e1e8e2;
+    text-align: center;
+    border-radius: 5%;
+    padding: 3%;
+    vertical-align: middle;
+    font-size: 5vw;
+  }
+ }
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/ 
+  marquee{
+   font-size: 2vh;
+   font-weight: 100;
+ } 
+} 
+ 
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ .footer{  
+   font-size: 1.5vh;
+ }
+} 
+ 
+ 
+ @media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  h1 {  
+   font-size:0.8em;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  h2 {  
+   font-size:0.8em;
+ }
+}
+
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+.dropbtn {
+   font-size: 1.5vh;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ .dropdown-content a {
+   color: black;
+   padding: 5px 5px;
+   text-decoration: none;
+   display: block;
+   font-size: 1.5vh;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+  p.maintext {  
+   font-size:0.4em;
+ }
+}
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+#me {
+   top:55%;
+ }
+}  
+
+@media screen and (max-width: 700px) { /* Specific to this particular element on phones*/
+ul {
+   font-size:0.4em;
+   display: table;
+   margin: 0 auto;
+ }
+} 
+
+
+
+      
+</style>
+
+
+
+</body>
+</html>
